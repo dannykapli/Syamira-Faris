@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#dceaf7">
+  <title>Syamira & Faris | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="weddingMusic" loop preload="auto">
+    <source src="wedding-music.mpeg" type="audio/mpeg">
+  </audio>
+
+  <!-- Opening screen -->
+  <div class="opening" id="opening">
+    <div class="opening-glow"></div>
+    <div class="opening-card">
+      <div class="mini-flower">✦</div>
+      <p class="opening-kicker">THE WEDDING OF</p>
+      <h1>Syamira <span>&amp;</span> Faris</h1>
+      <div class="opening-date">19 · 09 · 2026</div>
+      <div class="opening-divider"><span>♡</span></div>
+      <p class="opening-message">Together with their families,<br>we invite you to celebrate their special day.</p>
+      <button id="openInvitation" class="open-button">
+        <span>Open Invitation</span>
+        <b>♡</b>
+      </button>
+      <p class="tap-note">Tap to enter &amp; play music</p>
+    </div>
+  </div>
+
+
+  <nav class="quick-nav" id="quickNav" aria-label="Invitation navigation">
+    <a href="#home" class="active">Home</a>
+    <a href="#events">Events</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main invitation -->
+  <div class="site" id="site">
+    <header class="hero" id="home">
+      <div class="hero-wash"></div>
+      <div class="hero-flower hero-flower-left">❀</div>
+      <div class="hero-flower hero-flower-right">❀</div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">We’re getting married!</p>
+        <p class="script">The wedding of</p>
+        <h1>SYAMIRA</h1>
+        <div class="ampersand">&amp;</div>
+        <h1>FARIS</h1>
+        <div class="gold-line"></div>
+        <p class="date">19.09.2026</p>
+
+        <div class="venue invitation-message">
+          <span class="location-icon">♡</span>
+          <p>
+            Together with our beloved families, we warmly invite you to celebrate
+            this beautiful beginning of our journey together.
+            We would be honoured to have you with us on our special day.
+          </p>
+        </div>
+      </div>
+
+      <div class="couple-photo">
+        <img src="wedding-photo.jpeg" alt="Wedding ring ceremony">
+        <div class="photo-caption">A day to remember, a love to cherish.</div>
+      </div>
+    </header>
+
+    <section class="paper-card countdown-card">
+      <div class="section-heading">
+        <span>❧</span>
+        <h2>COUNTDOWN</h2>
+        <span>❧</span>
+      </div>
+      <div class="countdown">
+        <div class="time-box"><strong id="days">00</strong><small>DAYS</small></div>
+        <i>:</i>
+        <div class="time-box"><strong id="hours">00</strong><small>HOURS</small></div>
+        <i>:</i>
+        <div class="time-box"><strong id="minutes">00</strong><small>MINUTES</small></div>
+        <i>:</i>
+        <div class="time-box"><strong id="seconds">00</strong><small>SECONDS</small></div>
+      </div>
+    </section>
+
+    <section class="paper-card" id="events">
+      <div class="section-heading">
+        <span>❧</span>
+        <h2>TENTATIVE OF EVENTS</h2>
+        <span>❧</span>
+      </div>
+      <div class="timeline">
+        <div class="event"><time>11:00</time><span>Guest Arrival</span></div>
+        <div class="event"><time>12:30</time><span>Arrival of Bride and Groom</span></div>
+        <div class="event"><time>12:45</time><span>Blessing Ceremony</span></div>
+        <div class="event"><time>12:55</time><span>Doa Recitation</span></div>
+        <div class="event"><time>1:00</time><span>Formal Dining Ceremony</span></div>
+        <div class="event"><time>1:30</time><span>Cake Cutting Ceremony</span></div>
+        <div class="event"><time>2:00</time><span>Photography Session</span></div>
+        <div class="event"><time>2:30</time><span>Family &amp; Guest Photography</span></div>
+        <div class="event"><time>4:00</time><span>End of Ceremony</span></div>
+      </div>
+    </section>
+
+
+    <section class="location-section" id="location">
+      <div class="location-copy">
+        <div class="section-heading">
+          <span>⌖</span>
+          <h2>LOCATION</h2>
+          <span>⌖</span>
+        </div>
+        <p class="location-title">Worldwide Business Centre</p>
+        <p class="location-address">
+          1-B, 1st Floor, Block 4,<br>
+          Worldwide Business Centre,<br>
+          Jalan Karate 13/47, Seksyen 13,<br>
+          40100 Shah Alam, Selangor Darul Ehsan
+        </p>
+        <div class="navigation-buttons">
+          <a class="nav-button waze" target="_blank" rel="noopener"
+             href="https://waze.com/ul?q=1-B%201st%20Floor%2C%20Block%204%2C%20Worldwide%20Business%20Centre%2C%20Jalan%20Karate%2013%2F47%2C%20Seksyen%2013%2C%2040100%20Shah%20Alam%2C%20Selangor&navigate=yes">
+            <span>➤</span> Navigate with Waze
+          </a>
+          <a class="nav-button maps" target="_blank" rel="noopener"
+             href="https://www.google.com/maps/search/?api=1&query=1-B%201st%20Floor%2C%20Block%204%2C%20Worldwide%20Business%20Centre%2C%20Jalan%20Karate%2013%2F47%2C%20Seksyen%2013%2C%2040100%20Shah%20Alam%2C%20Selangor">
+            <span>⌖</span> Open in Google Maps
+          </a>
+        </div>
+      </div>
+
+      <div class="map-frame">
+        <iframe
+          title="Wedding venue map"
+          loading="lazy"
+          src="https://www.google.com/maps?q=1-B%20First%20Floor%20Block%204%20Worldwide%20Business%20Centre%20Jalan%20Karate%2013%2F47%20Seksyen%2013%2040100%20Shah%20Alam%20Selangor&output=embed">
+        </iframe>
+        <div class="map-label">
+          <span class="map-pin">♥</span>
+          <div><strong>Wedding Venue</strong><small>Worldwide Business Centre</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-grid" id="contact">
+      <div class="paper-card contact">
+        <div class="section-heading">
+          <span>♡</span><h2>CONTACT US</h2><span>♡</span>
+        </div>
+        <a class="whatsapp-contact" target="_blank" rel="noopener" href="https://wa.me/60176012716?text=Hi%20Ika%2C%20I%20would%20like%20to%20ask%20about%20Syamira%20%26%20Faris%27s%20wedding."><b>Ika</b><span>0176012716<small>WhatsApp ↗</small></span></a>
+        <a class="whatsapp-contact" target="_blank" rel="noopener" href="https://wa.me/601161174531?text=Hi%20Azrie%2C%20I%20would%20like%20to%20ask%20about%20Syamira%20%26%20Faris%27s%20wedding."><b>Azrie</b><span>01161174531<small>WhatsApp ↗</small></span></a>
+        <a class="whatsapp-contact" target="_blank" rel="noopener" href="https://wa.me/60183209840?text=Hi%20Nadhirah%2C%20I%20would%20like%20to%20ask%20about%20Syamira%20%26%20Faris%27s%20wedding."><b>Nadhirah</b><span>0183209840<small>WhatsApp ↗</small></span></a>
+      </div>
+
+      <div class="paper-card blessing">
+        <div class="heart">♡</div>
+        <p>
+          May Allah fill their hearts with love<br>
+          and their home with barakah.<br>
+          May this marriage be a source of peace,<br>
+          faith, and endless happiness.
+        </p>
+        <div class="gold-line small"></div>
+        <div class="heart">♥</div>
+      </div>
+    </section>
+
+    <footer>
+      <p>With love, Syamira &amp; Faris</p>
+    </footer>
+  </div>
+
+  <button class="music-control" id="musicControl" aria-label="Pause music" title="Pause music">
+    <span class="music-note">♪</span>
+    <span class="music-bars"><i></i><i></i><i></i><i></i></span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
